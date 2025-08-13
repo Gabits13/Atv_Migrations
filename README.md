@@ -16,6 +16,7 @@ Este projeto foi desenvolvido como atividade prática para criar um sistema Lara
 ---
 ## comando usado no terminal para criação de migrations:
 php artisan make:migration create_alunos_table --create=alunos
+php artisan migrate
 
 ## Migration Criada
    public function up(): void
