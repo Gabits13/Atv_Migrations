@@ -32,5 +32,5 @@ php artisan make:migration create_alunos_table --create=alunos
     });
 }
 
-<p align="center"><img src="img 1 atv_migrations" width="400" alt="imagens"></p>
-<p align="center"><img src="img 2 atv_migrations" width="400" alt="imagens"></p>
+<p align="center"><img src="img 1 atv_migrations.png" width="400" alt="imagens"></p>
+<p align="center"><img src="img 2 atv_migrations.png" width="400" alt="imagens"></p>
