@@ -19,7 +19,7 @@ php artisan make:migration create_alunos_table --create=alunos
 php artisan migrate
 
 ## Migration Criada
-   public function up(): void
+```public function up(): void
 {
     Schema::create('alunos', function (Blueprint $table) {
         $table->id();
@@ -31,7 +31,8 @@ php artisan migrate
         $table->integer('ano_ingresso');
         $table->timestamps();
     });
-}
+}```
+   
 
 <p align="center"><img src="img 1 atv_migrations.png" width="700" alt="imagens"></p>
 <p align="center"><img src="img 2 atv_migrations.png" width="700" alt="imagens"></p>
