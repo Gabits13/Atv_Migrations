@@ -18,6 +18,7 @@ Este projeto foi desenvolvido como atividade prática para criar um sistema Lara
 
 ## Comando para criar o projeto e com o laravel
 composer create-project laravel/laravel 'nome do projeto'
+
 ---
 ## comando usado no terminal para criação de migrations:
 php artisan make:migration create_alunos_table --create=alunos
