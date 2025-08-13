@@ -13,13 +13,23 @@ Este projeto foi desenvolvido como atividade prática para criar um sistema Lara
 - **Composer**
 - **VS Code**
 
+
+---
+
+## Comando para criar o projeto e com o laravel
+
 ---
 ## comando usado no terminal para criação de migrations:
 php artisan make:migration create_alunos_table --create=alunos
 php artisan migrate
 
+
+<p align="center"><img src="img 1 atv_migrations.png" width="700" alt="imagens"></p>
+<p align="center"><img src="img 2 atv_migrations.png" width="700" alt="imagens"></p>
+
 ## Migration Criada
-```public function up(): void
+```
+public function up(): void
 {
     Schema::create('alunos', function (Blueprint $table) {
         $table->id();
@@ -31,8 +41,11 @@ php artisan migrate
         $table->integer('ano_ingresso');
         $table->timestamps();
     });
-}```
-   
+}
+```
 
 <p align="center"><img src="img 1 atv_migrations.png" width="700" alt="imagens"></p>
 <p align="center"><img src="img 2 atv_migrations.png" width="700" alt="imagens"></p>
+<p align="center"><img src="img 3.png" width="700" alt="imagens"></p>
+   
+
